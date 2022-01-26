@@ -85,11 +85,23 @@
 
 .column{
     flex: 50%;
-    padding: 0 4px;
+    padding: 0 20px;
 }
 
 .column li{
-    margin-top: 8px;
+    margin-top: 40px;
   vertical-align: middle;
 }
 
+.imgborder {
+    border:1px solid #ccc;
+    padding:20px;
+    background:#f2f2f2;
+    margin-bottom:10px;
+ }
+
+ .s1 {
+    -webkit-box-shadow: 0 28px 16px -26px rgba(0, 0, 0);
+    -moz-box-shadow: 0 28px 16px -26px rgba(0, 0, 0);
+    box-shadow: 0 28px 16px -26px rgba(0, 0, 0);
+ }
