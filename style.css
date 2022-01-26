@@ -1,0 +1,95 @@
+#home{
+    background-color: grey;
+    height: 630px;
+    left: 0;
+    top: 0;
+    width: 100vw;
+}
+
+#page2{
+    background-color: green;
+    height: 630px;
+    left: 0;
+    top: 0;
+    width: 100vw;
+}
+
+#page3{
+    background-color: grey;
+    height: 630px;
+    left: 0;
+    top: 0;
+    width: 100vw;
+}
+
+#page4{
+    background-color: green;
+    height: 630px;
+    left: 0;
+    top: 0;
+    width: 100vw;
+}
+
+#introtext{
+    color: white;
+    font-family: 'Suez One', serif;
+    font-size: 48px;
+    
+}
+
+.flex {
+    display: flex;
+    
+  }
+
+.flex-align-center {
+    align-items: center;
+}
+
+.flex-justify-center {
+    justify-content: center;
+    
+  }
+
+.highlight{
+    color: yellow;
+    font-weight: 900;
+}
+
+#experience{
+    column-count: 2;
+    font-family: 'Suez One', serif;
+    font-size: 26px;
+}
+
+#navbar{
+    text-align: center;
+    background-color: yellow;
+    left: 0;
+    top: 0;
+    width: 100vw;
+}
+
+.myPort{
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.portfolio{
+    list-style-type:none;
+}
+
+.column{
+    flex: 50%;
+    padding: 0 4px;
+}
+
+.column li{
+    margin-top: 8px;
+  vertical-align: middle;
+}
+
