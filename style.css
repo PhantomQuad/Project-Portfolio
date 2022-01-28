@@ -54,6 +54,16 @@ a:link {
   color: inherit;
 }
 
+a:hover{
+  text-decoration: none;
+  color: inherit;
+}
+
+a:visited{
+  text-decoration: none;
+  color: inherit;
+}
+
 .flex {
     display: flex;
     
