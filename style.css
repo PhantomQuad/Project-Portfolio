@@ -7,13 +7,7 @@
     
 }
 
-#home_{
-  color: white;
-  font-family: 'Suez One', serif;
-  font-size: 48px;
-}
-
-#contact{
+#home-main{
   color: white;
   font-family: 'Suez One', serif;
   font-size: 48px;
@@ -36,14 +30,29 @@
 }
 
 #contact{
-    background-color: green;
-    height: 630px;
-    left: 0;
-    top: 0;
-    width: 100vw;
+  background-color: green;
+  height: 230px;
+  left: 0;
+  top: 0;
+  width: 100vw;
 }
 
+#contact-main{
+  color: white;
+  font-family: 'Suez One', serif;
+  font-size: 48px;
+}
 
+p{
+  font-family: 'Suez One', serif;
+  font-size: 14px;
+  text-align: center;
+}
+
+a:link {
+  text-decoration: none;
+  color: inherit;
+}
 
 .flex {
     display: flex;
@@ -64,7 +73,7 @@
     font-weight: 900;
 }
 
-#experience_{
+#experience-main{
     column-count: 2;
     font-family: 'Suez One', serif;
     font-size: 26px;
@@ -78,25 +87,12 @@
     width: 100vw;
 }
 
-.projects{
-    list-style-type:none;
-}
-
-/* .column{
-    flex: 50%;
-    padding: 0 20px;
-}
-
-.column li{
-    margin-top: 40px;
-  vertical-align: middle;
-} */
-
 .imgborder {
-    border:1px solid #ccc;
+    /* border:1px solid #ccc;
     padding:20px;
     background:#f2f2f2;
-    margin-bottom:10px;
+    margin-bottom:10px; */
+    border-radius: 10%;
  }
 
  .s1 {
@@ -109,8 +105,6 @@
     overflow: hidden;
     background-color: #333;
     width: 100vw;
-    
-    
   }
   
   /* Navbar links */
