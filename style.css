@@ -208,8 +208,8 @@ a:visited{
     display: block;
     width: 30px;
     height: 30px;
-    border-bottom: 5px solid #06ff66;
-    border-right: 5px solid #06ff66;
+    border-bottom: 5px solid yellow;
+    border-right: 5px solid yellow;
     transform: rotate(45deg);
     margin: -10px;
     animation: animate 2s infinite;
