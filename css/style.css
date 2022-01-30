@@ -49,20 +49,40 @@ p{
   text-align: center;
 }
 
-a:link {
+#navbar a:link {
+  text-decoration: none;
+  color: white;
+}
+
+#navbar a:hover{
   text-decoration: none;
   color: inherit;
 }
 
-a:hover{
+#navbar a:visited{
+  text-decoration: none;
+  color: white;
+}
+
+#projects a:link {
+  /* text-decoration: none; */
+  color: white;
+}
+
+#projects a:hover{
   text-decoration: none;
   color: inherit;
 }
 
-a:visited{
+#projects a:visited{
   text-decoration: none;
-  color: inherit;
+  color: white;
 }
+
+* {
+  box-sizing: border-box;
+}
+
 
 .flex {
     display: flex;
@@ -149,27 +169,19 @@ a:visited{
   .sticky + .content {
     padding-top: 60px;
   }
-
-  /* Center website */
-  .project-main {
-    max-width: 1000px;
-    margin: auto;
-  }
   
   .row {
     margin: 8px -16px;
   }
   
   /* Add padding BETWEEN each column (if you want) */
-  .row,
+  /* .row,
   .row > .column {
     padding: 8px;
-  }
+  } */
   
-  /* Create four equal columns that floats next to each other */
   .column {
-    float: left;
-    width: 25%;
+    flex: 50%;
   }
   
   /* Clear floats after rows */
@@ -179,16 +191,10 @@ a:visited{
     clear: both;
   }
   
-  /* Content */
-  .content {
-    background-color: white;
-    padding: 10px;
-  }
-  
   /* Responsive layout - makes a two column-layout instead of four columns */
   @media screen and (max-width: 900px) {
     .column {
-      width: 50%;
+      width: 100%;
     }
   }
   

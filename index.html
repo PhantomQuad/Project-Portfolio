@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Suez+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
     <title>Nathan Anderson Portfolio</title>
 </head>
 <body>
@@ -34,91 +34,78 @@
         <a href="#abilities">Abilities</a>
         <a href="#contact">Contact</a>
     </div>
-    <section id="experience">      
-            <ul id="experience-main">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>GIT</li>
-                <li>Javascript</li>
-                <li>OOP</li>
-                <li>TDD</li>
-                <li>Debugging</li>
-                <li>Bootstrap</li>
-                <li>Flexbox</li>
-                <li>RegEX</li>
-                <li>Pair Programming</li>
-                <li>Bootstrap</li>
+    <section id="experience" class="flex flex-align-center flex-justify-center">      
+            <ul id="experience-main" class="flex">
+              <div class="column">
+                <h2><img src="/img/html-coding.png">  HTML</h2>
+                <h2><img src="/img/css.png">  CSS</h2>
+                <h2><img src="/img/github.png">  GIT</h2>
+                <h2><img src="/img/javascript.png">  Javascript</h2>
+                <h2><img src="/img/oop.png">  OOP</h2>
+                <h2><img src="/img/tdd.png">  TDD</h2>
+                </div>
+                <div class="column">
+                <h2><img src="/img/debug.png">  Debugging</h2>
+                <h2><img src="/img/bootstrap.png">  Bootstrap</h2>
+                <h2><img src="/img/css.png">  Flexbox</h2>
+                <h2><img src="/img/regex.png">  RegEX</h2>
+                <h2><img src="/img/pair.png">  Pair Programming</h2>
+              </div>
             </ul>
-    </section>
-    
-    <!-- <div id="pagebreak">Something here...</div> -->
-    
-    <section id="projects"  class="flex flex-align-center flex-justify-center">
-      <div class="container">
-        <img src="cipher.jpg" alt="Ceaser Cipher" class="image s1">
-        <div class="overlay-top">
-          <div class="text">Ceaser Cipher</div>
-        </div>
-      </div>
-      <div class="container">
-        <img src="adventure.jpg" alt="Adventure Game" class="image s1">
-        <div class="overlay-bottom">
-          <div class="text">Adventure Game</div>
-        </div>
-      </div>
-      <div class="container">
-        <img src="quiz.jpg" alt="Quiz" class="image s1">
-        <div class="overlay-top">
-          <div class="text">Quiz</div>
-        </div>
-      </div>
-      <div class="container">
-        <img src="hobby.jpg" alt="Hobby Site" class="image s1">
-        <div class="overlay-bottom">
-          <div class="text">Hobby Site</div>
-        </div>
-      </div>
-    <div class="project-main">
-        <div class="row">
+          </section>
+          
+      <section id="projects" class="flex flex-align-center flex-justify-center">
 
-
-        <!-- <div class="column">
-          <div class="content s1 imgborder">
-            <a href="cipher.html"><img src="cipher.jpg" alt="Ceaser Cipher" style="width:100%">
-            <p>Ceaser Cipher</p></a>
+        <div class="container">
+          <img src="/img/cipher.jpg" alt="Ceaser Cipher" class="image s1">
+          <div class="overlay-top">
+            <div class="text">Ceaser Cipher<br/><br/>
+              <a href="https://github.com/PhantomQuad/Project-Cipher" target="_blank">Github Repo</a><br/>
+              <a href="https://phantomquad.github.io/Project-Cipher/" target="_blank">Live Site</a>
+            </div>
           </div>
         </div>
-        <div class="column">
-          <div class="content s1 imgborder">
-            <a href="adventure.html"><img src="adventure.jpg" alt="Adventure Game" style="width:100%">
-            <p>OOP Adventure Game Project</p></a>
+        <div class="container">
+          <img src="/img/adventure.jpg" alt="Adventure Game" class="image s1">
+          <div class="overlay-bottom">
+            <div class="text">Adventure Game<br/><br/>
+              <a href="https://github.com/PhantomQuad/Project-Game" target="_blank">Github Repo</a><br/>
+              <a href="https://phantomquad.github.io/Project-Game/" target="_blank">Live Site</a>
+            </div>
           </div>
         </div>
-        <div class="column">
-          <div class="content s1 imgborder">
-            <a href="quiz.html"><img src="quiz.jpg" alt="Quiz" style="width:100%">
-            <p>Simple Quiz Project</p></a>
+        <div class="container">
+          <img src="/img/quiz.jpg" alt="Quiz" class="image s1">
+          <div class="overlay-top">
+            <div class="text">Quiz<br/><br/>
+              <a href="https://github.com/PhantomQuad/Project-JS-Quiz" target="_blank">Github Repo</a><br/>
+              <a href="https://phantomquad.github.io/Project-JS-Quiz/" target="_blank">Live Site</a>
+            </div>
           </div>
         </div>
-        <div class="column">
-          <div class="content s1 imgborder">
-            <a href="hobby.html"><img src="hobby.jpg" alt="Hobby Site" style="width:100%">
-            <p>Hobby Website Project</p></a>
-          </div> -->
+        <div class="container">
+          <img src="/img/hobby.jpg" alt="Hobby Site" class="image s1">
+          <div class="overlay-bottom">
+            <div class="text">Hobby Site<br/><br/>
+              <a href="https://github.com/PhantomQuad/Project-Hobby" target="_blank">Github Repo</a><br/>
+              <a href="https://phantomquad.github.io/Project-Hobby/" target="_blank">Live Site</a>
+            </div>
+          </div>
         </div>
-      </div>
+      
     </section>
 
     <!-- <div id="pagebreak">Something here...</div> -->
     <section id="contact" class="flex flex-align-center flex-justify-center">
       <div id="contact-main">
         <a target="_blank" alt="My Linkedin" href="https://www.linkedin.com/in/nathanganderson/">
-          <img src="linkedin_icon.png">
+          <img src="/img/linkedin_icon.png">
          </a>
          <a target="_blank" alt="My Github" href="https://github.com/PhantomQuad">
-          <img src="github_icon.png">
+          <img src="/img/github_icon.png">
          </a>
       </div>
+    </div>
     </section>
 
 
