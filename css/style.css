@@ -2,6 +2,10 @@
     margin-bottom: 250px;
 }
 
+.margin-sm{
+  padding-bottom:  110px;
+}
+
 .bg-1 { 
   background-color: #1abc9c;
   color: #ffffff;
@@ -30,16 +34,16 @@
 #home{
     font-family: 'Suez One', serif;
     font-size: 48px;
-    padding-top:  25%;
+    padding-top:  15%;
     /* padding-top:  200px; */
     
   }
 
-  .margin-sm{
-    padding-bottom:  110px;
-  }
+  
 
-  .top-buffer { margin-top:20px; }
+.top-buffer {
+  margin-top:20px;
+}
 
   
 #home .highlight{
@@ -99,7 +103,7 @@
 
 .arrow{
     position: absolute;
-    top: 550px;
+    top: 70%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
@@ -232,4 +236,18 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     white-space: nowrap;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .text {
+      color: white;
+      font-size: 10px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      white-space: nowrap;
+    }
   }
