@@ -1,115 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Suez+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <title>Nathan Anderson Portfolio</title>
+  <title>Nathan Anderson Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Suez+One&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  
+
+  <!-- <style>
+  
+  p {font-size: 16px;}
+  /* .margin {margin-bottom: 45px;} */
+
+  .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+    color: #1abc9c !important;
+  }
+  </style> -->
 </head>
+
 <body>
-    <section id="home" class="flex flex-align-center flex-justify-center">
-        <div id="home-main">
-            Hello, I'm <span class="highlight">Nathan Anderson</span>.
-            <br />
-            I'm a web developer.
-        </div>
-        <a href="#experience"><div class="arrow">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div></a>
-    </section>
-    <div id="navbar" class="flex flex-align-center flex-justify-center">
-        <a href="#home">Home</a>
-        <a href="#experience">Experience</a>
-        <a href="#projects">Projects</a>
-        <a href="#about">About</a>
-        <a href="#education">Education</a>
-        <a href="#abilities">Abilities</a>
-        <a href="#contact">Contact</a>
+  <!-- Navbar -->
+  <!-- <nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Me</a>
     </div>
-    
-    <section id="experience">
-      <div class="heading">Experience<br/></div> 
-      <div id="experience-main">
-          <h3><img src="img/html-coding.png">HTML</h3>
-          <h3><img src="img/css.png">CSS</h3>
-          <h3><img src="img/github.png">GIT</h3>
-          <h3><img src="img/javascript.png">Javascript</h3>
-          <h3><img src="img/oop.png">OOP</h3>
-          <h3><img src="img/tdd.png">TDD</h3>
-          <h3><img src="img/debug.png">Debugging</h3>
-          <h3><img src="img/bootstrap.png">Bootstrap</h3>
-          <h3><img src="img/css.png">Flexbox</h3>
-          <h3><img src="img/regex.png">RegEX</h3>
-          <h3><img src="img/pair.png">Pair Programming</h3>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">WHO</a></li>
+        <li><a href="#">WHAT</a></li>
+        <li><a href="#">WHERE</a></li>
+      </ul>
+    </div>
+  </div>
+</nav> -->
+
+  <div id="home" class="container-fluid bg-1 text-center">
+    <div class="margin margin-sm">
+      Hello, I'm <span class="highlight">Nathan Anderson</span>.
+      <br />
+      I'm a web developer.
+      <a href="#experience" class="arrow">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+    </div>
+  </div>
+
+  <div id="experience" class="container-fluid bg-2">
+    <span class="highlight flex flex-justify-center">Experience</span><br />
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-4">
+          <h3>
+            <img src="img/html-coding.png" style="width: 40px; height: 40px" />HTML
+          </h3>
+          <h3>
+            <img src="img/css.png" style="width: 40px; height: 40px" />CSS
+          </h3>
+          <h3>
+            <img src="img/github.png" style="width: 40px; height: 40px" />GIT
+          </h3>
+          <h3>
+            <img src="img/javascript.png" style="width: 40px; height: 40px" />Javascript
+          </h3>
+          <h3>
+            <img src="img/oop.png" style="width: 40px; height: 40px" />OOP
+          </h3>
         </div>
-    </section>
-          
-      <section id="projects">
-        <!-- <div class="heading">Projects<br/></div>  -->
-        <div id="mypro">
-        <div class="container">
-          <img src="img/cipher.jpg" alt="Ceaser Cipher" class="image s1">
+        <div class="col-4">
+          <h3>
+            <img src="img/tdd.png" style="width: 40px; height: 40px" />TDD
+          </h3>
+          <h3>
+            <img src="img/debug.png" style="width: 40px; height: 40px" />Debugging
+          </h3>
+          <h3>
+            <img src="img/bootstrap.png" style="width: 40px; height: 40px" />Bootstrap
+          </h3>
+          <h3>
+            <img src="img/css.png" style="width: 40px; height: 40px" />Flexbox
+          </h3>
+          <h3>
+            <img src="img/regex.png" style="width: 40px; height: 40px" />RegEX
+          </h3>
+          <h3>
+            <img src="img/pair.png" style="width: 40px; height: 40px" />Pair
+            Programming
+          </h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="projects" class="container-fluid bg-3">
+    <span class="highlight flex flex-justify-center">Projects</span><br /><br />
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-sm-4 container-image">
+          <img src="img/project.png" alt="Ceaser Cipher" style="width: 100%" class="img-responsive" />
           <div class="overlay-top">
-            <div class="text">Ceaser Cipher<br/><br/>
-              <a href="https://github.com/PhantomQuad/Project-Cipher" target="_blank">Github Repo</a><br/>
+            <div class="text">
+              Ceaser Cipher<br /><br />
+              <a href="https://github.com/PhantomQuad/Project-Cipher" target="_blank">Github Repo</a><br />
               <a href="https://phantomquad.github.io/Project-Cipher/" target="_blank">Live Site</a>
             </div>
           </div>
         </div>
-        <div class="container">
-          <img src="img/adventure.jpg" alt="Adventure Game" class="image s1">
+        <div class="col-sm-4 container-image">
+          <img src="img/project.png" alt="Adventure Game" style="width: 100%" class="img-responsive" />
           <div class="overlay-bottom">
-            <div class="text">Adventure Game<br/><br/>
-              <a href="https://github.com/PhantomQuad/Project-Game" target="_blank">Github Repo</a><br/>
+            <div class="text">
+              Adventure Game<br /><br />
+              <a href="https://github.com/PhantomQuad/Project-Game" target="_blank">Github Repo</a><br />
               <a href="https://phantomquad.github.io/Project-Game/" target="_blank">Live Site</a>
             </div>
           </div>
         </div>
-        <div class="container">
-          <img src="img/quiz.jpg" alt="Quiz" class="image s1">
+      </div>
+      <div class="row justify-content-center top-buffer">
+        <div class="col-sm-4 container-image">
+          <img src="img/project.png" alt="Quiz" style="width: 100%" class="img-responsive" />
           <div class="overlay-top">
-            <div class="text">Quiz<br/><br/>
-              <a href="https://github.com/PhantomQuad/Project-JS-Quiz" target="_blank">Github Repo</a><br/>
+            <div class="text">
+              Quiz<br /><br />
+              <a href="https://github.com/PhantomQuad/Project-JS-Quiz" target="_blank">Github Repo</a><br />
               <a href="https://phantomquad.github.io/Project-JS-Quiz/" target="_blank">Live Site</a>
             </div>
           </div>
         </div>
-        <div class="container">
-          <img src="img/hobby.jpg" alt="Hobby Site" class="image s1">
+        <div class="col-sm-4 container-image">
+          <img src="img/project.png" alt="Hobby Site" style="width: 100%" class="img-responsive" />
           <div class="overlay-bottom">
-            <div class="text">Hobby Site<br/><br/>
-              <a href="https://github.com/PhantomQuad/Project-Hobby" target="_blank">Github Repo</a><br/>
+            <div class="text">
+              Hobby Site<br /><br />
+              <a href="https://github.com/PhantomQuad/Project-Hobby" target="_blank">Github Repo</a><br />
               <a href="https://phantomquad.github.io/Project-Hobby/" target="_blank">Live Site</a>
             </div>
           </div>
         </div>
       </div>
-    </section>
-
-    <!-- <div id="pagebreak">Something here...</div> -->
-    <section id="contact" class="flex flex-align-center flex-justify-center">
-      <div id="contact-main">
-        <a target="_blank" alt="My Linkedin" href="https://www.linkedin.com/in/nathanganderson/">
-          <img src="img/linkedin_icon.png">
-         </a>
-         <a target="_blank" alt="My Github" href="https://github.com/PhantomQuad">
-          <img src="img/github_icon.png">
-         </a>
-         Lorem ipsum..
-      </div>
     </div>
-    </section>
+  </div>
 
+  <div id="contact" class="container-fluid bg-4 text-center margin-sm">
+    <span class="highlight">Contact Me</span><br />
+    <a target="_blank" alt="My Linkedin" href="https://www.linkedin.com/in/nathanganderson/">
+      <img src="img/linkedin_icon.png" />
+    </a>
+    <a target="_blank" alt="My Github" href="https://github.com/PhantomQuad">
+      <img src="img/github_icon.png" />
+    </a>
+  </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <script src="portfolio.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <script src="portfolio.js"></script>
 </body>
+
 </html>
